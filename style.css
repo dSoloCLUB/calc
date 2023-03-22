@@ -1,0 +1,46 @@
+button{
+    width: 25%;
+    display:inline-block;
+    height:120px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+}
+form{
+    font-size: 0;
+    width:1000px;
+    margin:auto;
+    background-color: #ffffff00;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255);
+}
+input{
+    display: block;
+    width: 100%;
+    /* чтобы обводка и пэдинг не увеличивали инпут */
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+body{
+    background-image: url("Stacked Wave.svg");
+    background-size: cover;
+}
+html{
+    min-height: 100%;
+}
